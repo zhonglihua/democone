@@ -65,7 +65,7 @@ public class View extends ViewPart {
 		viewer.setContentProvider(new ViewContentProvider());
 		viewer.setLabelProvider(new ViewLabelProvider());
 		// Provide the input to the ContentProvider
-		viewer.setInput(new String[] {"One", "Two", "Three","4"});
+		viewer.setInput(new String[] {"One", "Two", "Three","Four","4"});
 	}
 
 	/**
